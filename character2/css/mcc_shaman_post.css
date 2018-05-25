@@ -1,0 +1,393 @@
+/*Post Data
+Mark Tasaka April 2018
+Mutant Crawl Classics Character Generator*/
+
+
+#characterName{
+    position: absolute;
+    top: 140px;
+    left: 60px;
+	font-size: 0.9em;
+}
+
+#arcAlignment{
+    position: absolute;
+    top: 140px;
+    left: 310px;
+	font-size: 0.9em;
+}
+
+
+#playerName{
+    position: absolute;
+    top: 140px;
+    left: 700px;
+	font-size: 0.9em;
+}
+
+
+#artifactName1{
+    position: absolute;
+    top: 610px;
+    left: 450px;
+    width: 180px;
+	font-size: 0.8em;
+}
+
+#artifactCheck1{
+    position: absolute;
+    top: 610px;
+    left: 660px;
+	font-size: 0.8em;
+}
+
+#artifactEffect1{
+    position: absolute;
+    top: 610px;
+    left: 700px;
+    width: 210px;
+	font-size: 0.5em;
+}
+
+
+#artifactName2{
+    position: absolute;
+    top: 655px;
+    left: 450px;
+    width: 180px;
+	font-size: 0.8em;
+}
+
+#artifactCheck2{
+    position: absolute;
+    top: 655px;
+    left: 660px;
+	font-size: 0.8em;
+}
+
+#artifactEffect2{
+    position: absolute;
+    top: 655px;
+    left: 700px;
+    width: 210px;
+	font-size: 0.5em;
+}
+
+
+#artifactName3{
+    position: absolute;
+    top: 705px;
+    left: 450px;
+    width: 180px;
+	font-size: 0.8em;
+}
+
+#artifactCheck3{
+    position: absolute;
+    top: 705px;
+    left: 660px;
+	font-size: 0.8em;
+}
+
+#artifactEffect3{
+    position: absolute;
+    top: 705px;
+    left: 700px;
+    width: 210px;
+	font-size: 0.5em;
+}
+
+
+#artifactName4{
+    position: absolute;
+    top: 755px;
+    left: 450px;
+    width: 180px;
+	font-size: 0.8em;
+}
+
+#artifactCheck4{
+    position: absolute;
+    top: 755px;
+    left: 660px;
+	font-size: 0.8em;
+}
+
+#artifactEffect4{
+    position: absolute;
+    top: 755px;
+    left: 700px;
+    width: 210px;
+	font-size: 0.5em;
+}
+
+
+
+#weaponDescription1{
+    position: absolute;
+    top: 910px;
+    left: 60px;
+	font-size: 0.8em;
+}
+
+#weaponDamage1{
+    position: absolute;
+    top: 910px;
+    left: 330px;
+	font-size: 0.8em;
+}
+
+
+#armourDescription{
+    position: absolute;
+    top: 970px;
+    left: 60px;
+    width: 230px;
+	font-size: 0.8em;
+}
+
+#armourBonus{
+    position: absolute;
+    top: 970px;
+    left: 330px;
+	font-size: 0.8em;
+}
+
+
+#armourPenalityCheck{
+    position: absolute;
+    top: 1012px;
+    left: 150px;
+	font-size: 0.7em;
+}
+
+#armourSpeedPen{
+    position: absolute;
+    top: 1012px;
+    left: 262px;
+	font-size: 0.7em;
+}
+
+#fumbleArmourValue{
+    position: absolute;
+    top: 1012px;
+    left: 353px;
+	font-size: 0.7em;
+}
+
+#equipmentGear{
+    position: absolute;
+    top: 1065px;
+    left: 55px;
+    width: 340px;
+	font-size: 0.6em;
+}
+
+
+
+#modifiedFumble{
+    position: absolute;
+    top: 420px;
+    left: 790px;
+	font-size: 0.9em;
+}
+
+#modifiedSpeed{
+    position: absolute;
+    top: 380px;
+    left:  795px;
+	font-size: 1.2em;
+}
+
+
+#modifiedArmourClass{
+	position: absolute;
+    top: 290px;
+    left: 70px;
+	font-size: 1.5em;
+}
+
+
+#patronAI{
+	position: absolute;
+    top: 200px;
+    left: 320px;
+	font-size: 0.9em;
+}
+
+
+#wetwareLevel1Level{
+    position: absolute;
+    top: 862px;
+    left: 730px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Program{
+    position: absolute;
+    top: 862px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Range{
+    position: absolute;
+    top: 862px;
+    left: 835px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Duration{
+    position: absolute;
+    top: 880px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Activation{
+    position: absolute;
+    top: 880px;
+    left: 680px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Save{
+    position: absolute;
+    top: 880px;
+    left: 810px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel1Page{
+    position: absolute;
+    top: 898px;
+    left: 850px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Manifest{
+    position: absolute;
+    top: 914px;
+    left: 435px;
+    width: 460px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel2Level{
+    position: absolute;
+    top: 963px;
+    left: 730px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Program{
+    position: absolute;
+    top: 963px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Range{
+    position: absolute;
+    top: 963px;
+    left: 830px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel2Duration{
+    position: absolute;
+    top: 981px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Activation{
+    position: absolute;
+    top: 981px;
+    left: 680px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Save{
+    position: absolute;
+    top: 981px;
+    left: 810px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Page{
+    position: absolute;
+    top: 999px;
+    left: 850px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Manifest{
+    position: absolute;
+    top: 1015px;
+    left: 435px;
+    width: 460px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel3Level{
+    position: absolute;
+    top: 1064px;
+    left: 730px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Program{
+    position: absolute;
+    top: 1064px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Range{
+    position: absolute;
+    top: 1064px;
+    left: 830px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Duration{
+    position: absolute;
+    top: 1082px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Activation{
+    position: absolute;
+    top: 1082px;
+    left: 680px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Save{
+    position: absolute;
+    top: 1082px;
+    left: 810px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel3Page{
+    position: absolute;
+    top: 1100px;
+    left: 850px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Manifest{
+    position: absolute;
+    top: 1115px;
+    left: 435px;
+    width: 460px;
+	font-size: 0.6em;
+}
